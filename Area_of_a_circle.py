@@ -1,4 +1,4 @@
 n=int(input())
-c=3.14*n*n
-y=round(c,2)
+a=3.14*n*n
+y=format(a,".2f")
 print(y)
