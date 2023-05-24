@@ -1,7 +1,10 @@
-n=int(input())
-for i in range(1,n//2+1):
-    if i*i==n:
-        print(True)
-        break
+from math import*
+a=int(input())
+for i in range(1,int(sqrt(a)+1)):
+    c=0
+    if i*i==a:
+        c=1
+if c==1:
+    print(True)
 else:
     print(False)
